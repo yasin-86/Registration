@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>registration</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<form>
-    <h3>Login Here</h3>
+<form id="form">
+    <h3>registration</h3>
 
-    <label for="firstname">firstname</label>
-    <input type="text" placeholder="write your firstname" id="firstname">
-    <label for="lastname">lastname</label>
-    <input type="text" placeholder="write your lastname" id="lastname" >
-    <label for="email">email</label>
-    <input type="text" placeholder="write your Email" id="email">
-    <label for="birthday">birthday</label>
+    <label for="Fullname">Fullname</label>
+    <input type="text" placeholder="write your fullName" id="fullName" >
+    <label for="Numberhone">Phone</label>
+    <input type="number" placeholder="write your numberPhone" id="phone" >
+    <label for="Email">Email</label>
+    <input type="email" placeholder="write your Email" id="email">
+    <label for="birthday">Birthday</label>
     <input type="date" placeholder="how old are you" id="birthday">
 
     <label for="password">Password</label>
     <input type="password" placeholder="Password" id="password">
+    <label for="textarea">Description</label>
+    <textarea name="textarea" id="textarea"></textarea>
     <input type="submit" id="submit">
 
 </form>
